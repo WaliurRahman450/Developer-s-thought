@@ -60,7 +60,12 @@
     height: 65px;
     padding: 21px 24px;
     margin-bottom: 45px;
-
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background: rgb(13, 19, 33, 0.7);
+    
 }
 
 #dev{
@@ -158,6 +163,11 @@ margin-top: 32px;
 font-weight: 600;
 font-size: 19px;
 }
+.btn-primary:hover{
+    cursor: pointer;
+    background: rgb(13, 19, 33);
+    color: white;
+}
 .c2{
     display: flex;
     width: 946px;
@@ -167,4 +177,228 @@ font-size: 19px;
     align-items: center;
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+
+.ins1{
+    width: 852px;
+height: 113px;
+margin: auto;
+display: block;
+margin-bottom: 48px;
+}
+.ins-title{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.ins-subtitle{
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.ins-video{
+   
+
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin: auto;
+}
+
+#current-target{
+    width: 1140px;
+    height: 460px;
+    margin: 151px auto ;
+    
+}
+.current-target{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    margin: 48px 0px;
+    gap: 24px;
+   
+}
+.current-ts{
+    width: 852px;
+height: 113px;
+margin: auto;
+}
+.x1{
+
+width: 364px;
+height: 299px;
+padding: 40px;
+
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.x2{
+width: 364px;
+height: 299px;
+padding: 40px;
+
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.x3{
+width: 364px;
+height: 299px;
+padding: 40px;
+
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.z1{
+    color: rgb(13, 19, 33);
+
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 8px;
+margin-top: 24px;
+}
+.z2{
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-bottom: 24px;
+}
+.z3{
+background-color: transparent;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+border: none;
+}
+.z3:hover{
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+.footer{
+   
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('./assets/handshake.jpg');
+    width: 1050px;
+    height:313px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    padding: 64px 48px;
+    border-radius: 16px;
+    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email); */
+   
+    
+}
+.footer::before{
+    content: " ";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    width: 1044px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    margin: 32px 0px;
+
+}
+
+.footer2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 25px 150px;
+    
+}
+
+.ft{
+    color: rgb(255, 255, 255);
+
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.fst{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 606px;
+    height: 52px;
+
+}
+.input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.inp-submit{
+    width: 120px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+cursor: pointer;
+}
+.inp-submit:hover{
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.8);
 }
